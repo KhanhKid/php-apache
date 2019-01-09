@@ -1,5 +1,5 @@
 FROM php:5.6-apache
-#MAINTAINER khanhvo <khanhvo@gmail.com>
+#MAINTAINER khanhvo <sachlong112359@gmail.com>
 
 ENV TZ=Asia/Bangkok
 # Set Server timezone.
