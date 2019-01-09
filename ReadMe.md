@@ -36,7 +36,7 @@ docker run --name testphp -p 8080:80 -d -v $(pwd):/var/www/html docker push wsgr
 ## Use with Docker-compose 
 ```
   apache:
-    image: porchn/php5.6-apache
+    image: wsgroup/php5.6-apache-b2b
     container_name: apache
     ports:
       - "80:80"
