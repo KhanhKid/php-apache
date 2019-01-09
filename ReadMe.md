@@ -1,4 +1,4 @@
-# php5.6-apache-b2b Supported tags
+# php-apache Supported tags
 This repo used in Dockerhub url 'https://cloud.docker.com/repository/docker/wsgroup/php5.6-apache-b2b'
 * latest [Link to Dockerfile](https://github.com/KhanhKid/php5.6-apache-b2b/tree/master)
 
