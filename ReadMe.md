@@ -1,7 +1,6 @@
-# apache-php5 Supported tags
-This repo used in Dockerhub url 'https://hub.docker.com/r/porchn/php5.6-apache/'
-* latest [Link to Dockerfile](https://github.com/porchn/php5-apache/tree/master)
-* pdftk [Link to dockerfile](https://github.com/porchn/php5-apache/tree/pdftk)
+# php5.6-apache-b2b Supported tags
+This repo used in Dockerhub url 'https://cloud.docker.com/repository/docker/wsgroup/php5.6-apache-b2b'
+* latest [Link to Dockerfile](https://github.com/KhanhKid/php5.6-apache-b2b/tree/master)
 
 ## Module install in images
 * gd
@@ -32,7 +31,7 @@ This repo used in Dockerhub url 'https://hub.docker.com/r/porchn/php5.6-apache/'
 
 ## How to use with Docker
 ```
-docker run --name testphp -p 8080:80 -d -v $(pwd):/var/www/html porchn/php5.6-apache
+docker run --name testphp -p 8080:80 -d -v $(pwd):/var/www/html docker push wsgroup/php5.6-apache-b2b
 ```
 ## Use with Docker-compose 
 ```
